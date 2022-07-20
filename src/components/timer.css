@@ -1,0 +1,12 @@
+.timerbtn{
+  width: 200px;
+  height: 38px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.timerbtn:hover{
+  background-color: rgb(255, 255, 255);
+}

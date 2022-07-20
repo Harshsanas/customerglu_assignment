@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "./timer.css"
 
 export default function Timer() {
 
@@ -45,9 +46,9 @@ export default function Timer() {
         {minutes < 10 ? "0" + minutes : minutes}:
         {seconds < 10 ? "0" + seconds : seconds}
       </h3>
-      <button onClick={handleStart}>START</button>
-      <button onClick={handleStop}>STOP</button>
-      <button onClick={handleRestart}>RESTART</button>
+      <button onClick={handleStart} className="timerbtn">START</button>
+      <button onClick={handleStop} className="timerbtn">STOP</button>
+      <button onClick={handleRestart} className="timerbtn">RESTART</button>
     </div>
   );
 }
