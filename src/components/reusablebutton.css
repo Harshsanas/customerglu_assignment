@@ -1,4 +1,13 @@
-button{
-    position: fixed;
-    margin-bottom: 0;
+.btn-reuablebutton{
+    position: absolute;
+    bottom: 0%;   
+    height: 38px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.btn-reuablebutton:hover{
+    background-color: rgb(255, 255, 255);
 }

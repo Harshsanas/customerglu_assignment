@@ -1,3 +1,4 @@
+
 .timerbtn{
   width: 200px;
   height: 38px;
@@ -7,6 +8,6 @@
   cursor: pointer;
 }
 
-.timerbtn:hover{
+timerbtn:hover{
   background-color: rgb(255, 255, 255);
 }
